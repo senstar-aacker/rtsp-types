@@ -70,3 +70,6 @@ pub const UNSUPPORTED: HeaderName = HeaderName::from_static_str_unchecked("Unsup
 pub const USER_AGENT: HeaderName = HeaderName::from_static_str_unchecked("User-Agent");
 pub const VIA: HeaderName = HeaderName::from_static_str_unchecked("Via");
 pub const WWW_AUTHENTICATE: HeaderName = HeaderName::from_static_str_unchecked("WWW-Authenticate");
+
+// Non-standard additions
+pub const RATE_CONTROL: HeaderName = HeaderName::from_static_str_unchecked("Rate-Control");
